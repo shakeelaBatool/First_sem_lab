@@ -3,8 +3,9 @@ print(x)
 print(f" {x}")
 print('Hello world')
 
-a='hello'
+a= 'hello'
 b='world'
 
 print(a+b)
+
 
