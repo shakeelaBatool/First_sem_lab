@@ -44,8 +44,8 @@ def edit_file(filename):
     except Exception as e:
         print("An error occurred!")
 def main():
-    while True:
-        print('FILE MANAGEMENT APP')
+    while True: 
+        print(' FILE MANAGEMENT APP')
         print('1: Create file')
         print('2: View all files')
         print('3: Delete file')
@@ -74,4 +74,5 @@ def main():
         print('In-valid syntax')
 if __name__=="__main__":
     main()
+
 
