@@ -56,7 +56,7 @@ def main():
         if choice == '1':
             filename = input("Enter the file-name to create: ")
             create_file(filename)
-        if choice =='2':
+        if choice == '2':
            view_all_files()
         if choice == '3':
             filename = input("Enter the file-name to delete: ")
@@ -74,5 +74,6 @@ def main():
         print('In-valid syntax')
 if __name__=="__main__":
     main()
+
 
 
