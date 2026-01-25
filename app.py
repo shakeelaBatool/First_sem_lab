@@ -59,7 +59,7 @@ def main():
         if choice == '2':
            view_all_files()
         if choice == '3':
-            filename = input("Enter the file-name to delete: ")
+            filename =input("Enter the file-name to delete: ")
             delete_file(filename)
         elif choice =='4':
             filename = input('Enter file name to read: ')
@@ -74,6 +74,7 @@ def main():
         print('In-valid syntax')
 if __name__=="__main__":
     main()
+
 
 
 
