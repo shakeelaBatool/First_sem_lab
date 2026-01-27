@@ -36,7 +36,7 @@ def read_file(filename):
 def edit_file(filename):
     try:
         with open(filename, 'a') as f:
-            content = input('Enter data to add: ' )
+            content =input('Enter data to add: ' )
             f.write(content + "\n")
             print(f'Content added to {filename} Successfully')
     except FileNotFoundError:
@@ -74,6 +74,7 @@ def main():
         print('In-valid syntax')
 if __name__=="__main__":
     main()
+
 
 
 
