@@ -54,7 +54,7 @@ def main():
         print('6: Exit')
         choice = input('Enter your choice(1-6): ')
         if choice == '1':
-            filename = input("Enter the file-name to create: ")
+            filename =input("Enter the file-name to create: ")
             create_file(filename)
         if choice == '2':
            view_all_files()
@@ -74,6 +74,7 @@ def main():
         print('In-valid syntax')
 if __name__=="__main__":
     main()
+
 
 
 
